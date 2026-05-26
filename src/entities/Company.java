@@ -8,8 +8,8 @@ public class Company extends TaxPayer {
 		super();
 	}
 	
-	public Company(Integer numberOfEmployees) {
-		super();
+	public Company(String name, Double anualIncome, Integer numberOfEmployees) {
+		super(name, anualIncome);
 		this.numberOfEmployees = numberOfEmployees;
 	}
 
